@@ -18,7 +18,7 @@ ngx_lua - 在Nging中嵌入强大的Lua
 版本
 ======
 
-本文对应的是 ngx_lua [v0.8.5](https://github.com/chaoslawful/lua-nginx-module/tags)版本，发布于2013年7月8日.
+本文对应的是 ngx_lua [v0.8.6](https://github.com/chaoslawful/lua-nginx-module/tags)版本，发布于2013年8月6日.
 
 示例
 ======
@@ -1576,7 +1576,7 @@ URI query string可以被添加到URI本身 如,
 可以为第2个可选参数提供一个选项table, 支持如下选项:
 
 * `method`
-  指定子请求的请求方法，只接受 `ngx.HTTP_POST` 这样的常量.
+	指定子请求的请求方法，只接受 `ngx.HTTP_POST` 这样的常量.
 * `body`
 	指定子请求的请求体 (只允许字符串值).
 * `args`
